@@ -16,7 +16,7 @@ legendas:
 
 usage:
 
-git clone 
+git clone https://github.com/shacrony/webrecon.sh.git
 
 chmod +x 
 
