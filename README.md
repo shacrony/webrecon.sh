@@ -3,7 +3,7 @@
 for palavra in $(cat path wordlist)
 do
 response=$(curl -s -H "User-Agent: Mozilla/5.0") -o /dev/null -w "%{htttp_code}" $1/$palavra/)
-if [$resposta == "200"]
+if [$response == "200"]
 then
 echo "Diretorio encontrado: $1/$palavra"
 fi
